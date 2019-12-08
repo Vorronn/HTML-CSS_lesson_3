@@ -468,8 +468,70 @@ svg {
     font-size: 16px;
     padding: 0 14px;
     /* background: red; */
+}  
+    /* +++++++++++++++++++top_slider++++++++++++++++++++++++++++++++++ */
+
+.slider-top figure {
+    position: relative;
+}
     
-    
+.slider-top figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slider-top figure figcaption {
+    position: absolute;
+    top: 35%;
+    left: 285px;
+    font-family: Tahoma, sans-serif;
+}
+
+.slider-top figure figcaption h1 {
+    font-size: 52px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ff5912;
+    margin-bottom: 30px;
+}
+
+.slider-top figure figcaption span {
+    display: block;
+}
+
+.slider-top figure figcaption span.goods {
+    font-size: 18px;
+    color: #3c4751;
+    margin-bottom: 15px;
+}
+
+slider-top figure figcaption span.info {
+    font-size: 16px;
+    color: #495662;
     
 }
+
+.slider-top figure figcaption div.purchases {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+
+
+.slider-top figure figcaption div.purchases div.prise {
+    display: inline-block;
+    color: #34404b;
+    margin-right: 25px;
+}
+
+.slider-top figure figcaption div.purchases div.basket {
+    display: inline-block;
+}
+
+.slider-top figure figcaption div.purchases div.basket span {
+    display: inline-block;
+    color: #ff5912;
+}
+
 
