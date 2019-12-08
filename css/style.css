@@ -364,6 +364,7 @@ textarea {
 .small-header {
     background: #ffffff;
     height: 60px;
+    border-bottom: 1px solid #edeff1
         
 }
 
@@ -397,33 +398,38 @@ ul {
 
 .small-header div.social-network .social li {
     float: left;
+    
     /* text-align: center; */
    
 }
 
 svg {
-    padding: 0 5px;
+    padding: 0 6px;
 }
 
 /* ++++++++++++++++big-header++++++++++++++++ */
 
 .big-header {
-    background: pink;
+    /* background: pink; */
     height: 120px;
+    border-bottom: 1px solid #edeff1
     
 }
 
 .big-header div.logotype {
-    background: red;
+    /* background: red; */
     margin-left: 11%;
     width: 13%;
     float: left;
+    margin-top: 40px;
 }
 
 .big-header nav.navigate {
-    background: green;
+    /* background: green; */
     width: 44%;
     display: inline-block;
+    font-size: 0;
+    margin: 0;
     
 }
 
@@ -431,31 +437,39 @@ svg {
     float: left;
     margin-top: 52px;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .big-header nav.navigate li {
     float: left;
+    margin: 0 0 0 0;
     margin-right: 45px;
+    padding: 0 0 0 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.big-header nav.navigate li a {
+    text-decoration: none;
 }
 
 .big-header div.search {
-    background: yellow;
-    margin-right: 11%;
-    width: 21%;
-    /* display: inline-block; */
-    
+    /* background: yellow; */
+    margin-right: 10%;
+    width: 11%;
+    font-size: 0;
+    float: right;
+    /* padding-left: 11%; */
 }
 
-.big-header div.search ul {
-    float: right;
-    margin-top: 52px;
+.big-header div.search div {
+    
+    display: inline-block;
+    margin-top: 47px;
     font-size: 16px;
-    display: block;
+    padding: 0 14px;
+    /* background: red; */
+    
+    
+    
 }
 
-.big-header div.search li {
-    float: right;
-    display: block;
-    
-    
-}
