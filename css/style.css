@@ -589,6 +589,8 @@ main.conteiner div div.goods-cart {
     font-size: 18px;
     font-family: Tahoma, sans-serif;
     color: #7c838a;
+    height: 365px;
+    vertical-align: bottom;
 
 }
 main.conteiner div div.goods-cart img {
@@ -600,6 +602,55 @@ main.conteiner div div.goods-cart p {
     margin-bottom: 15px;
 }
 
+main.conteiner div div.goods-cart p.goods-name1 {
+    color: #ff5912;
+    font-size: 18px;
+}
+
+main.conteiner div div.goods-cart p.size {
+    
+    font-size: 14px;
+}
+
 main.conteiner div div.goods-cart p.goods-cost {
     color: #ff5912;
+}
+
+main.conteiner div div.goods-cart div div{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 2px;
+    
+}
+
+main.conteiner div div.goods-cart div.d1 {
+    
+    background: #e12e3f;
+}
+main.conteiner div div.goods-cart div.d2 {
+    
+    background: #34404b;
+}
+main.conteiner div div.goods-cart div.d3 {
+    
+    background: #3ab3ff;
+}
+main.conteiner div div.goods-cart div.d4 {
+    
+    background: #2fd967;
+}
+
+main.conteiner div div.goods-cart div.images{
+    margin-top: 60px;
+    margin-bottom: 0px;
+            
+}
+
+main.conteiner div div.goods-cart div.images img{
+    
+    display: inline-block;
+    margin: 15px;
+    
 }
