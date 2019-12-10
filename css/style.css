@@ -543,4 +543,63 @@ slider-top figure figcaption span.info {
     color: #ff5912;
 }
 
+/* ++++++++++++++++++++main+++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++main+++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++main+++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++main+++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++main+++++++++++++++++++++++++++ */
 
+main.conteiner h2.name-section {
+    display: block;
+    text-align: center;
+    color: #34404b;
+    font-size: 36px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+main.conteiner h2.name-section span {
+    color: #ff5912;
+}
+
+main.conteiner p.information {
+    display: block;
+    text-align: center;
+    color: #495662;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+    margin-bottom: 80px;
+}
+
+main.conteiner div {
+    margin-left: 11%;
+    margin-right: 11%;
+
+    font-size: 0;
+}
+
+main.conteiner div div.goods-cart {
+    display: inline-block;
+    margin: 0;
+    margin-top: 30px;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    color: #7c838a;
+
+}
+main.conteiner div div.goods-cart img {
+    margin-bottom: 15px;
+}
+
+main.conteiner div div.goods-cart p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main.conteiner div div.goods-cart p.goods-cost {
+    color: #ff5912;
+}
