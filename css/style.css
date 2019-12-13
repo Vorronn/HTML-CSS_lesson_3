@@ -673,13 +673,14 @@ footer.footer {
     background: red;
     margin-left: 11%;
     margin-right: 11%;
-    display: inline-block;
+    display: block;
     width: 78%;
 }
 
 footer.footer div {
-    display: inline-block;
+    display: block;
     font-size: 0;
+    vertical-align: top;
 }
 
 footer.footer div div.logotype {
@@ -704,12 +705,7 @@ footer.footer div div.information ul {
     background: brown;
 }
 
-footer.footer div div.information li {
-    display: block;
-    min-width: 33%;
-    
-    background: brown;
-}
+
 
 footer.footer div div.pay {
     display: inline-block;
