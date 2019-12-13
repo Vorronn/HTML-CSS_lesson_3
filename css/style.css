@@ -369,6 +369,10 @@ textarea {
 /* ++++++++++++++++++++++++small-header++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++small-header++++++++++++++++++++++++++++++++++++++++++ */
 
+body {
+    background: #f4f6f8;
+}
+
 
 .small-header {
     background: #ffffff;
@@ -576,21 +580,23 @@ main.conteiner p.information {
 main.conteiner div {
     margin-left: 11%;
     margin-right: 11%;
-
+    
     font-size: 0;
 }
 
 main.conteiner div div.goods-cart {
     display: inline-block;
-    margin: 0;
+    margin: 1%;
     margin-top: 30px;
-    width: 25%;
+    width: 23%;
     text-align: center;
     font-size: 18px;
     font-family: Tahoma, sans-serif;
     color: #7c838a;
     height: 365px;
     vertical-align: bottom;
+    background: #ffffff;
+    padding-top: 50px;
 
 }
 main.conteiner div div.goods-cart img {
